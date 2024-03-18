@@ -1,0 +1,127 @@
+html {
+    background-color: #BCCCE0;
+    font: 30px "Century Gothic", Futura, sans-serif;
+  }
+
+h1 {
+    font-weight: bold;
+    margin: 0px;
+    padding: 20px 0;
+    text-align: center;
+    color: #BF98A0;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px 0;
+    text-align: center;
+    color: #000000;
+}
+
+form {
+    font-size: 16px;
+    line-height: 2;
+}
+
+li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.app {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #A6D9F7;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+.add-button {
+    line-height: inherit;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.delete-button {
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.edit-button {
+    margin: 15px;
+    border: 1px solid black;
+}
+
+.formatted-time {
+    font-size: inherit;
+    text-indent: 15px;
+    line-height: 1.2;
+    color: #ffffff
+}
+
+.input-form {
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: 1px;
+}
+
+.input-time {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.reminder, .reminder-complete {
+    background-color: #84DCCF;
+    margin: 2px 2px;
+    border: 1px solid black;
+}
+
+.reminder-complete {
+    opacity: 0.2;
+}
+
+.reminder-text {
+    font-size: inherit;
+    text-indent: 15px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
